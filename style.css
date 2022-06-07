@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Skranji&display=swap');
+*{
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+body{
+    display:flex;
+    margin: 0;
+    height: 100vh;
+    background-color: rgba(243, 237, 237, 0.801);
+}
+.side{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    background-image: url('img/halie-west-25xggax4bSA-unsplash.jpg');
+    background-size: cover;
+    height: 100%;
+    width: max(30%,350px);
+    color: white;
+}
+.logo-cointaner{
+    margin-top: 10em;
+    background-color: rgb(0, 0, 0,.5);
+    height: 8em;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.logo>img{
+    height: 7em;
+}
+.logo>p{
+   font-family: 'Skranji', cursive;
+   font-size: 6em;
+}
+.sign-form{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.filler-text{
+    margin:30px 50px;
+    font-size: 20px;
+}
+.form,.left-side,.right-side{
+    display: flex;
+}
+.form{
+    border: none;
+    background-color: white;
+    box-shadow: 0px 4px 5px rgb(0, 0, 0,0.2);
+}
+.left-side,.right-side{
+    flex-direction: column;
+    margin-left: 3em;
+}
+.form>legend{
+    font-size: 25px;
+    padding-top: 48px;
+    padding-left: 48px;
+}
+.input-field{
+    margin:10px 0px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.input-field>input{
+    width: 250px;
+    height: 20px;
+}
+.input-field>input:focus{
+    box-shadow: 4px 4px 5px rgb(0, 0, 0,0.2);
+    outline: none;
+    border: 2px solid rgb(37, 160, 231);
+}
+.invalid>input{
+    border-color: red;
+}
+.input-field.invalid>span{
+    color: red;
+    position: absolute;
+    left:0;
+    bottom: -15px;
+    font-size: 10px;
+}
+footer{
+    margin: 20px 50px;
+}
+.submit-button{
+    color: white;
+    background-color: #596D48;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 50px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.submit-button+p>a{
+    color: #596D48;
+}
+.credit{
+    margin-left: 20%;
+}
+.credit>a{
+    color: white;
+    text-decoration: underline;
+}
+
+
